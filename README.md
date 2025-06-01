@@ -50,7 +50,7 @@ This task simulates a disaster recovery process that ensures no data is lost dur
   ```sql
   SELECT * FROM customers;
 
-![Original_Data](screenshots/Inner_Join.png)
+![Original_Data](screenshot/original_data.png)
 
 
 
@@ -58,7 +58,7 @@ This task simulates a disaster recovery process that ensures no data is lost dur
 - Command Used
 - mysqldump -u root -p backup_demo > backup_demo_dump.sql;
 
-![MYSQLDUMP COMMAND](screenshots/Inner_Join.png)
+![MYSQLDUMP COMMAND](screenshot/mysqldump_command.png)
 
 
 
@@ -66,7 +66,7 @@ This task simulates a disaster recovery process that ensures no data is lost dur
 - Dropped the entire database.
 - DROP DATABASE backup_demo;
 
-![Drop Database](screenshots/Inner_Join.png)
+![Drop Database](screenshot/drop_database.png)
 
 
 
@@ -78,7 +78,8 @@ This task simulates a disaster recovery process that ensures no data is lost dur
 - CREATE DATABASE IF NOT EXISTS backup_demo;
 - USE backup_demo;
 
-![restored_data](screenshots/Inner_Join.png)
+![Restored Command](screenshot/restore_command.png)
+![Restored Data](screenshot/restored_data.png)
 
 
 
