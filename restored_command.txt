@@ -1,0 +1,1 @@
+mysql -u root -p < your_dump_file_name.sql
